@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main() 
+{
+    int a,b,c,y;
+    printf("A B C D\n");
+    for(a=0;a<=1;a++)
+    {
+        for(b=0;b<=1;b++)
+        {
+            for(c=0;c<=1;c++)
+            {
+                if(a||b||c)
+                {
+                    printf("%d %d %d 1",a,b,c);
+                }
+                else
+                {
+                    printf("%d %d %d 0",a,b,c);
+                }
+                printf("\n");
+            }
+        }
+    }
+}
